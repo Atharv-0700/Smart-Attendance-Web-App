@@ -1,7 +1,6 @@
-import loginImage from '../../assets/login.png';
-
-/* ?? DEPLOY PROOF MARKER – REMOVE AFTER CONFIRM */
+/* ?? DEPLOY PROOF MARKER ï¿½ REMOVE AFTER CONFIRM */
 import { useState } from 'react';
+import loginImage from "../../assets/login.png";
 import { User } from '../App';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
