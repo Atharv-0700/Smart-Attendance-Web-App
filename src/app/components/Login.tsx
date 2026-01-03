@@ -1,3 +1,6 @@
+import loginImage from '../../assets/login.png';
+
+/* ?? DEPLOY PROOF MARKER – REMOVE AFTER CONFIRM */
 import { useState } from 'react';
 import { User } from '../App';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
@@ -502,3 +505,4 @@ export function Login({ onLogin }: LoginProps) {
     </div>
   );
 }
+
