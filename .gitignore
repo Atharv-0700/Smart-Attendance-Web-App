@@ -1,0 +1,16 @@
+﻿node_modules
+dist
+.env
+.env.*
+*.bak
+*.backup
+*.log
+
+# Figma / design junk
+figma.*
+*.figma
+
+# API / secrets
+GROQ_API_SETUP.md
+OPENAI_SETUP.md
+*_API_KEY*
