@@ -1,4 +1,4 @@
-/* ?? DEPLOY PROOF MARKER � REMOVE AFTER CONFIRM */
+import image_8f475c60ab263c84a45860a35d503e1c9950bfed from 'figma:asset/8f475c60ab263c84a45860a35d503e1c9950bfed.png';
 import { useState } from 'react';
 import { User } from '../App';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
@@ -295,6 +295,7 @@ export function Login({ onLogin }: LoginProps) {
         <CardHeader className="text-center space-y-2">
           <div className="mx-auto w-20 h-20 flex items-center justify-center overflow-hidden">
             <ImageWithFallback 
+              src={image_8f475c60ab263c84a45860a35d503e1c9950bfed}
               alt="Bharati Vidyapeeth University Logo"
               className="w-full h-full object-contain"
             />
@@ -503,4 +504,3 @@ export function Login({ onLogin }: LoginProps) {
     </div>
   );
 }
-
