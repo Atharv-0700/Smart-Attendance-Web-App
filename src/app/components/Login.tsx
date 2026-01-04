@@ -298,7 +298,7 @@ export function Login({ onLogin }: LoginProps) {
         <CardHeader className="text-center space-y-2">
           <div className="mx-auto w-20 h-20 flex items-center justify-center overflow-hidden">
             <ImageWithFallback 
-              src={image_8f475c60ab263c84a45860a35d503e1c9950bfed}
+              src={loginImage}
               alt="Bharati Vidyapeeth University Logo"
               className="w-full h-full object-contain"
             />
@@ -507,6 +507,7 @@ export function Login({ onLogin }: LoginProps) {
     </div>
   );
 }
+
 
 
 
